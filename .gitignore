@@ -1,4 +1,8 @@
-node_modules/
 .bash_logout
 .profile
 .bashrc
+node_modules/
+.gitconfig
+.npm/
+.node_repl_history
+.git/

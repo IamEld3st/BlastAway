@@ -1,0 +1,24 @@
+{
+  "name": "blastaway",
+  "version": "0.0.1",
+  "description": "Blast Away is a web game made with phaser",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamEld3st/BlastAway.git"
+  },
+  "author": "IamEld3st",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IamEld3st/BlastAway/issues"
+  },
+  "homepage": "https://github.com/IamEld3st/BlastAway#readme",
+  "dependencies": {
+    "engine.io": "^1.6.11",
+    "eureca.io": "^0.6.42",
+    "express": "^4.14.0"
+  }
+}
