@@ -1,4 +1,4 @@
-# Blast Away
+# Blastway
 Web game made with phaser.io... For game contest...
 ## Features
 Nothing yet :D
