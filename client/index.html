@@ -5,28 +5,12 @@
         <script type="text/javascript" src="/eureca.js"></script>
         <script type="text/javascript" src="/client/js/peer.min.js"></script>
         <script type="text/javascript" src="/client/js/phaser.min.js"></script>
+        <script type="text/javascript" src="/client/js/bootState.js"></script>
+        <script type="text/javascript" src="/client/js/loadState.js"></script>
+        <script type="text/javascript" src="/client/js/menuState.js"></script>
+        <script type="text/javascript" src="/client/js/gameState.js"></script>
     </head>
-    <body>
-    	<div id="auth" style="background-color:pink">
-       		Pseudo : <input type="text" id="nick" /><button id="logBtn">Log In</button>
-        </div>    
-        <script>
-            var client = new Eureca.Client();
-            var nick = 'IamEld3st';
- 			var connID;
-            var server;
-    		client.ready(function (proxy) {
-    			server = proxy;
-    			if(connID !== undefined && nick !== undefined) {
-    				//proxy.setNick(connID, nick);
-    			}
-
-    		});
-
-     		client.export.setID = function(ident) {
-       			connID = ident;
-       			console.log('Setting connection id to '+ident);
-     		}
-        </script>
+    <body style="padding:0px;margin:0px;border-collapse:collapse;display:block">   
+        <script type="text/javascript" src="/client/js/main.js"></script>
     </body>
 </html>

@@ -34,8 +34,8 @@ var connections = {};
 eurecaServer.onConnect(function (connection) {
    console.log('New client ', connection.id);
    connections[connection.id] = {nick:null, client:eurecaServer.getClient(connection.id)};
-   console.log('TEST: '+connections[connection.id]);
-   connection.client.setID(connection.id);
+   console.log('TEST: '+connections[0]);
+   //connection.client.setID(connection.id);
 });
 
 eurecaServer.onDisconnect(function (connection) {    
