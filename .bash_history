@@ -194,3 +194,65 @@ ls
 cd
 nano .bashrc
 exit
+ls
+node server.js
+cd client
+cd js
+ls
+cd ..
+ls
+mkdir assets
+ls
+cd assets
+ls
+wget https://raw.githubusercontent.com/photonstorm/phaser/master/resources/Phaser%20Logo/Pixel%20Art/phaser_pixel_medium_flat.png
+ls
+rm phaser_pixel_medium_flat.png 
+ls
+mkdir logo
+ls
+cd logo
+wget https://raw.githubusercontent.com/photonstorm/phaser/master/resources/Phaser%20Logo/Pixel%20Art/phaser_pixel_medium_flat.png
+ls
+cd
+node server.js 
+ls
+cd client
+cd js
+ls
+rm gameCode.js 
+rm preloadGame.js 
+rm connectionMgmt.js 
+rm bootGame.js 
+ls
+nano main.js
+nano bootState.js
+nano loadState.js
+nano menuState.js
+nano gameState.js
+ls
+exit
+ls
+cd client
+ls
+cd js
+ls
+cd ..
+cd assets
+mv logo/phaser_pixel_medium_flat.png img/phaser_logo.png
+mkdir img
+mv logo/phaser_pixel_medium_flat.png img/phaser_logo.png
+rm -rf logo
+ls
+cd img
+ls
+cd..
+cd
+ls
+git status
+git add .
+git status
+git commit -m "Rewrite/restructure of main game files"
+git push origin master
+ls
+node server.js

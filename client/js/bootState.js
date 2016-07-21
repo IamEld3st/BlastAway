@@ -1,13 +1,13 @@
-var SpaceHipster = SpaceHipster || {};
+var Blastway = Blastway || {};
  
-SpaceHipster.Boot = function(){};
+Blastway.Boot = function(){};
  
 //setting game configuration and loading the assets for the loading screen
-SpaceHipster.Boot.prototype = {
+Blastway.Boot.prototype = {
   preload: function() {
    //assets we'll use in the loading screen
-    this.load.image('logo', 'assets/images/logo.png');
-    this.load.image('preloadbar', 'assets/images/preloader-bar.png');
+    this.load.image('PhaserLogo', 'client/assets/img/phaser_logo.png');
+    this.load.image('preloadbar', 'client/assets/img/preloader-bar.png');
   },
   create: function() {
    //loading screen will have a white background
